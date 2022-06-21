@@ -16,7 +16,7 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
       <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
         Target Muscle
       </span>{" "}
-      exercises
+      Exercises
     </Typography>
     <Stack direction="row" sx={{ p: 2, position: "relative" }}>
       {targetMuscleExercises.length !== 0 ? (
@@ -39,7 +39,7 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
       <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
         Equipment
       </span>{" "}
-      exercises
+      Exercises
     </Typography>
     <Stack direction="row" sx={{ p: 2, position: "relative" }}>
       {equipmentExercises.length !== 0 ? (
